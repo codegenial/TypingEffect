@@ -1,0 +1,39 @@
+body {
+    background: #B3D4FC;
+}
+
+.wrapper {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.typing_demo {
+    font-family: Courier, monospace;
+    color: #59488b;
+    width: 19ch;
+    font-size: 2em;
+    animation:  typing 1s steps(12), blink 0.3s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+
+.typing_demo span {
+    font-weight: 700;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    from, to {
+        border-color: #59444b;
+    }
+    50% {
+        border-color: transparent;
+    }
+}
