@@ -1,6 +1,6 @@
 #  **TYPING EFFECT**
 
-Hola, crea yn typing effect solo con HTML y CSS.
+Hola, crea un typing effect solo con HTML y CSS.
 
 ![banner](https://github.com/codegenial/TypeEffect/blob/master/cover/cover.jpg)
 
